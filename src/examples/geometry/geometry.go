@@ -1,4 +1,4 @@
-package examples
+package geometry
 
 import "fmt"
 

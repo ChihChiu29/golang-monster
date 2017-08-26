@@ -1,7 +1,7 @@
 package main
 
 import (
-	"examples"
+	"examples/geometry"
 	"fmt"
 	"utils"
 )
@@ -11,10 +11,10 @@ func main() {
 	utils.PrintHelloWorld()
 	fmt.Println(utils.Sin())
 
-	intPair := examples.IntPair{X: 20, Y: 45}
+	intPair := geometry.IntPair{X: 20, Y: 45}
 	intPair.Draw()
 
-	point := examples.Point{IntPair: examples.IntPair{X: 20, Y: 45}}
+	point := geometry.Point{IntPair: geometry.IntPair{X: 20, Y: 45}}
 	point.Draw()
 	point.ChangeColor(1)
 	point.Draw()
